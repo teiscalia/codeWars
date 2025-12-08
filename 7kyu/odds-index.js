@@ -8,9 +8,9 @@ function oddBall(arr) {
     if (arr[i] == "odd") {
       // return i;
       if (arr.includes(i)) {
-        return "true";
+        return true;
       } else {
-        return "false";
+        return false;
       }
     }
   }
